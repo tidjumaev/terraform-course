@@ -1,3 +1,9 @@
+variable "AWS_ACCESS_KEY" {
+}
+
+variable "AWS_SECRET_KEY" {
+}
+
 variable "AWS_REGION" {
   default = "eu-west-1"
 }
@@ -5,9 +11,9 @@ variable "AWS_REGION" {
 variable "AMIS" {
   type = map(string)
   default = {
-    us-east-1 = "ami-13be557e"
-    us-west-2 = "ami-06b94666"
-    eu-west-1 = "ami-844e0bf7"
+    us-east-1 = "ami-039a49e70ea773ffc"
+    us-west-2 = "ami-003634241a8fcdec0"
+    eu-west-1 = "ami-0701e7be9b2a77600"
   }
 }
 
